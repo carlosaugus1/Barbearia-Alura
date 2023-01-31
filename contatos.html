@@ -25,32 +25,41 @@
 <main>    
     <form>
         <label for="nomeesobrenome">Nome e Sobrenome*</label>
-        <input type="text" id="nomeesobrenome">
+        <input type="text" id="nomeesobrenome" class="input-padrao" placeholder="Seu nome" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email">
+        <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com">
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone">
+        <input type="tel" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx" required>
         
-        <label for="mensagem">Mensagem</label>
-        <textarea name="" id="mensagem" cols="70" rows="10"></textarea>
+        <label for="mensagem">Mensagem</label required>
+        <textarea name="" cols="70" rows="10" id="mensagem"  class="input-padrao"></textarea>
         
-        <div>
-            <p>Como prefere nosso contato?</p>
-            <label for="radio-email">Email</label>
-            <input type="radio" name="contato"  value="email" id="radio-email">
+        <fieldset>
+            <legend>Como prefere nosso contato?</legend>
+            <label for="radio-email"><input type="radio" name="contato"  value="email" id="radio-email">Email</label>
+            
 
-            <label for="radio-telefone">Telefone</label>
-            <input type="radio" name="contato"  value="telefone" id="radio-telefone">
+            <label for="radio-telefone"><input type="radio" name="contato"  value="telefone" id="radio-telefone">Telefone</label>
+            
 
-            <label for="radio-whatsapp">WhatsApp</label>
-            <input type="radio" name="contato"  value="WhatsApp" id="radio-whatsapp">
-        </div>
+            <label for="radio-whatsapp"><input type="radio" name="contato"  value="WhatsApp" id="radio-whatsapp" checked>WhatsApp</label>
+            
+        </fieldset>
 
-        <label for="receber-novidades"><input id="receber-novidades" type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+        <fieldset>
+                <legend>Qual horário prefete ser atendido?</legend>
+            <select name="horario-atendimento" id="">
+                <option value="">Manhã</option>
+                <option value="">Tarde</option>
+                <option value="">Noite</option>
+            </select>
+        </fieldset>
+        
+        <label class="checkbox" for="receber-novidades"><input id="receber-novidades" type="checkbox"> Gostaria de receber nossas novidades por email?</label>
 
-        <input type="submit" value="Enviar" >
+        <input type="submit" value="Enviar" class="enviar" >
 
     </form>  
 </main>         
