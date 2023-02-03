@@ -58,13 +58,25 @@ form label, form legend{
     font-size: 18px;
     border: none;
     border-radius: 5px;
-    transition: 0.5s; 
+    transition: 0.5s;  
     cursor: pointer;
 }
 .enviar:hover {
     background: rgb(255, 166, 0);
+    transform: perspective(1);
 }
-
+table {
+    margin: 20px 0 40px;
+}
+thead{
+    background: rgb(32, 32, 32);
+    color: #ffffff;
+    font-weight: bold;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
 footer{
     text-align: center;
     background: url(../img/bg.jpg);
