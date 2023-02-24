@@ -23,7 +23,7 @@ nav a {
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 19px;
     text-decoration: none;
 }
 nav a:hover{
@@ -77,4 +77,18 @@ footer{
     color: white;
     font-size: 13px;
     margin: 20px 0;
+}
+@media screen and (max-width: 480px)   {
+    .caixa, .produtos, .produto-preco, .produto-descricao, .produtos li{
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios{
+        width: 100%;
+    }
 }
