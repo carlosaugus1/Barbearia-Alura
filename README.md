@@ -4,7 +4,7 @@
 
 > Barbearia Alura
 
-Esse projeto foi feito com ajuda da Alura e o programa Desenvolve 2023 do Grupo O Bóticario.
+Esse projeto foi feito com ajuda da Alura e o programa Desenvolve 2023 do Grupo O Boticário.
 
 [Clique aqui para acessar](https://github.com/Arngriim/Curso-Alura-inicio-)
 
