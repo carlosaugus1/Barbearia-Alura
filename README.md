@@ -9,6 +9,7 @@ Esse projeto foi feito com ajuda da Alura e o programa Desenvolve 2023 do Grupo 
 [Clique aqui para acessar](https://arngriim.github.io/Barbearia-Alura/)
 
 
+
 ## Tecnologias usadas
 
 - HTML
